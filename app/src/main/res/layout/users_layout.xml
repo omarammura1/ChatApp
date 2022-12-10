@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/img_users"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/user" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/online_dot_users"
+            android:layout_width="15dp"
+            android:visibility="invisible"
+            android:layout_height="15dp"
+            android:layout_alignRight="@+id/img_users"
+            android:layout_alignBottom="@+id/img_users"
+            android:background="@drawable/buttons"
+            android:backgroundTint="@color/green_200"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img_users"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/username_users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bio_users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_users"
+            android:layout_marginTop="3dp"
+            android:text="Simple users " />
+
+
+
+        <ImageView
+            android:id="@+id/blockIV"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_circle_24"
+            android:layout_gravity="right"
+            />
+
+        <LinearLayout
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bio_users"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/accept_req_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:backgroundTint="@color/green_400"
+                android:text="@string/accept"
+                android:textAllCaps="false"
+                android:visibility="invisible"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/decline_req_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:visibility="invisible"
+                android:background="@drawable/buttons"
+                android:backgroundTint="@color/red_400"
+                android:text="@string/decline"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

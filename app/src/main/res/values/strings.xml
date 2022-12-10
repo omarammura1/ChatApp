@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+   <!--You Can Change App Name From Here-->
+    <string name="app_name">Retro</string>
+
+    <!--Admob-->
+    <string name="admobAppId" translatable="false">ca-app-pub-9492048432036311~6837280281</string>
+    <string name="admobBannerId" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="username">Username</string>
+    <string name="groupname">Group Name</string>
+    <string name="groupdec">Group Description</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="re_new_password">Re-Enter New Password</string>
+    <string name="verify">Verify</string>
+    <string name="change_pass">Change password</string>
+    <string name="blocked_friends">Blocked friends</string>
+    <string name="bio">Bio</string>
+    <string name="textNoRequest">No friend requests yet!</string>
+    <string name="uploading">Uploading…</string>
+    <string name="failed_message">Failed to send Message!</string>
+    <string name="nothing_selected">Nothing selected !!, Error.</string>
+    <string name="please_write_message">Please write your message.</string>
+    <string name="blocked_success">Blocked Successfully!</string>
+    <string name="unblocked_success">Unblocked Successfully!</string>
+    <string name="groupName_req">Group name is required.</string>
+    <string name="email_not_verified">Your email is not verified!! We sent new verification Email to</string>
+    <string name="check_spam">also please check SPAM box</string>
+    <string name="set_profile">Please set &amp; update your profile information</string>
+    <string name="profile_image_updated">Profile image updated successfully</string>
+    <string name="write_name">Please write your name.</string>
+    <string name="write_bio">Please write your bio.</string>
+    <string name="profile_updated">Profile updated successfully.</string>
+    <string name="error">Error:</string>
+    <string name="blocked_by_user">You are blocked by the user!!</string>
+    <string name="group_created_success">Group created successfully</string>
+    <string name="camera_storage_permission_req">Camera &amp; Storage permissions are required</string>
+    <string name="storage_permission_req">Storage permissions are required</string>
+    <string name="enter_groupName">Please enter group name.</string>
+    <string name="email_sent_password_success">Email sent, please follow the instructions…</string>
+    <string name="email_failed_toSent">Failed to send email, please try again later…</string>
+    <string name="please_enter_email">Please enter your email.</string>
+    <string name="please_enter_pass">Please enter your password.</string>
+    <string name="login_success">Logged in successfully</string>
+    <string name="delete_group">Delete Group</string>
+    <string name="sure_delete_group">Are you sure you want to DELETE this group permanently?</string>
+    <string name="delete">DELETE</string>
+    <string name="leave_group_text">Leave Group</string>
+    <string name="sure_leave_group">Are you sure you want to LEAVE this group?</string>
+    <string name="leave">LEAVE</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="group_left_success">Group left success!</string>
+    <string name="group_delete_success">Group Deleted!</string>
+    <string name="want_tobe_friend">wants to be your friend</string>
+    <string name="new_friend_req">New friend request</string>
+    <string name="password_length_limit">Password length must be at least 6 character</string>
+    <string name="pass_doesnot_match">Password does not match!</string>
+    <string name="password_update_success">Password updated successfully.</string>
+    <string name="creating_account">Creating New Account</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="email_Sent">Verification email sent to </string>
+    <string name="please_verify_email">please verify your email</string>
+    <string name="creator_of_group">Creator of group</string>
+    <string name="make_admin">Make group admin</string>
+    <string name="remove_user">Remove user</string>
+    <string name="add_user_to_group_quest">Add this user to group?</string>
+    <string name="add">ADD</string>
+    <string name="added_success">Added Successfully...</string>
+    <string name="user_is_Admin">Participant is admin now.</string>
+    <string name="user_removed">Participant removed</string>
+    <string name="no_longer_admin">Participant is no longer admin</string>
+    <string name="deleted_success">Deleted successfully</string>
+    <string name="failed_delete_message">Failed to delete message</string>
+    <string name="delete_everyone">Delete for Everyone</string>
+    <string name="delete_me">Delete for me</string>
+    <string name="view_image">View Image</string>
+    <string name="delete_msg_ques">Delete message ?</string>
+    <string name="deleted_from_list">deleted from your friends list</string>
+    <string name="msg_req_canceled">You have canceled message request</string>
+    <string name="added_to_list">deleted to your friends list</string>
+    <string name="created_success">is Created successfully</string>
+    <string name="create_group">Create Group</string>
+    <string name="find_friends">Find friend</string>
+    <string name="chats">Chats</string>
+    <string name="requests">Requests</string>
+    <string name="groups">Groups</string>
+    <string name="friends">Friends</string>
+    <string name="info">Info</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="support">Support</string>
+    <string name="account">Account</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forget password</string>
+    <string name="new_account">Need new account?</string>
+    <string name="login_via_phone">Login with phone number</string>
+    <string name="verification_message">You will get SMS with a confirmation code this number</string>
+    <string name="resend_code">Resend verification code</string>
+    <string name="send_code">send verification code</string>
+    <string name="verification">Verification</string>
+    <string name="input_code_below">Please input code below</string>
+    <string name="send_message_request">Send message Request</string>
+    <string name="cancel_message_request">Cancel message Request</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="menu_document">Document</string>
+    <string name="menu_audio">Audio</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_camera">Camera</string>
+    <string name="accept">Accept</string>
+    <string name="editgroup">Edit Group</string>
+    <string name="add_participants">Add participant(s)</string>
+    <string name="leave_group">Leave Group</string>
+    <string name="participants">Participants (N)</string>
+    <string name="decline">Decline</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_desc">Hope you enjoy Chatting</string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+    <string name="block">Block</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_pass">Update Password</string>
+    <string name="about_text">Retro is Android Chat application with modern UI , private and public groups</string>
+   <string name="ask_question">If you have any problems or question please visit\n [https://support.ammura.tech]</string>
+   <string name="privacy_policy_html">
+
+        <![CDATA[
+"<!DOCTYPE html>\n"
+                "    <html>\n"
+                "\n"
+                "    <body>\n"
+                "    <h2>Privacy Policy</h2> <p>\n"
+                "                    OA-Team built the Retro app as\n"
+                "                    an Ad Supported app. This SERVICE is provided by\n"
+                "                     OA-Team at no cost and is intended for\n"
+                "                    use as is.\n"
+                "                  </p> <p>\n"
+                "                    This page is used to inform visitors regarding\n"
+                "                    my policies with the collection, use, and\n"
+                "                    disclosure of Personal Information if anyone decided to use\n"
+                "                    my Service.\n"
+                "                  </p> <p>\n"
+                "                    If you choose to use my Service, then you agree\n"
+                "                    to the collection and use of information in relation to this\n"
+                "                    policy. The Personal Information that I collect is\n"
+                "                    used for providing and improving the Service.\n"
+                "                    I will not use or share your\n"
+                "                    information with anyone except as described in this Privacy\n"
+                "                    Policy.\n"
+                "                  </p> <p>\n"
+                "                    The terms used in this Privacy Policy have the same meanings\n"
+                "                    as in our Terms and Conditions, which is accessible at\n"
+                "                    Retro unless otherwise defined in this Privacy\n"
+                "                    Policy.\n"
+                "                  </p> <p><strong>Information Collection and Use</strong></p> <p>\n"
+                "                    For a better experience, while using our Service,\n"
+                "                    I may require you to provide us with certain\n"
+                "                    personally identifiable information, including but not limited to Contacts in your Phonebook,Your Phone Number,Your Profile Picture. The\n"
+                "                    information that I request will be\n"
+                "                    securely saved on our secure Servers, we will never share these information without your permission.\n"
+                "                    <br>\n"
+                "                     your name, number, and your profile Picture will be available publicly to other users.\n"
+                "                  </p> <p>\n"
+                "                    The app does use third party services that may collect\n"
+                "                    information used to identify you.\n"
+                "                  </p> <div><p>\n"
+                "                      Link to privacy policy of third party service providers\n"
+                "                      used by the app\n"
+                "                    </p> <ul><li><a href=\"https://www.google.com/policies/privacy/\" target=\"_blank\">Google Play Services</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p><strong>Log Data</strong></p> <p>\n"
+                "                    I want to inform you that whenever\n"
+                "                    you use my Service, in a case of an error in the\n"
+                "                    app I collect data and information (through third\n"
+                "                    party products) on your phone called Log Data. This Log Data\n"
+                "                    may include information such as your device Internet\n"
+                "                    Protocol (“IP”) address, device name, operating system\n"
+                "                    version, the configuration of the app when utilizing\n"
+                "                    my Service, the time and date of your use of the\n"
+                "                    Service, and other statistics.\n"
+                "                  </p> \n"
+                "                  <p><strong>Permissions we request</strong></p> <p>\n"
+                "                    <ul>\n"
+                "                      <li>Contacts: to be able to communicate with your Friends that are in your Contacts</li>\n"
+                "                      <li>Camera: to be able to Take Pictures/Videos and to be able to make Video Calls.</li>\n"
+                "                      <li>Microphpone: to be able to send Voice Messages and also to be able to make Voice/Video Calls.</li>\n"
+                "                      <li>Storage: to save the Sent/Received Files in your Device</li>\n"
+                "                    </ul>\n"
+                "                  </p>\n"
+                "\n"
+                "                  <p><strong>Cookies</strong></p> <p>\n"
+                "                    Cookies are files with a small amount of data that are\n"
+                "                    commonly used as anonymous unique identifiers. These are\n"
+                "                    sent to your browser from the websites that you visit and\n"
+                "                    are stored on your device's internal memory.\n"
+                "                  </p> <p>\n"
+                "                    This Service does not use these “cookies” explicitly.\n"
+                "                    However, the app may use third party code and libraries that\n"
+                "                    use “cookies” to collect information and improve their\n"
+                "                    services. You have the option to either accept or refuse\n"
+                "                    these cookies and know when a cookie is being sent to your\n"
+                "                    device. If you choose to refuse our cookies, you may not be\n"
+                "                    able to use some portions of this Service.\n"
+                "                  </p> <p><strong>Service Providers</strong></p> <p>\n"
+                "                    I may employ third-party companies\n"
+                "                    and individuals due to the following reasons:\n"
+                "                  </p> <ul><li>To facilitate our Service;</li> <li>To provide the Service on our behalf;</li> <li>To perform Service-related services; or</li> <li>To assist us in analyzing how our Service is used.</li></ul> <p>\n"
+                "                    I want to inform users of this\n"
+                "                    Service that these third parties have access to your\n"
+                "                    Personal Information. The reason is to perform the tasks\n"
+                "                    assigned to them on our behalf. However, they are obligated\n"
+                "                    not to disclose or use the information for any other\n"
+                "                    purpose.\n"
+                "                  </p> <p><strong>Security</strong></p> <p>\n"
+                "                    I value your trust in providing us\n"
+                "                    your Personal Information, thus we are striving to use\n"
+                "                    commercially acceptable means of protecting it. But remember\n"
+                "                    that no method of transmission over the internet, or method\n"
+                "                    of electronic storage is 100% secure and reliable, and\n"
+                "                    I cannot guarantee its absolute security.\n"
+                "                  </p> <p><strong>Links to Other Sites</strong></p> <p>\n"
+                "                    This Service may contain links to other sites. If you click\n"
+                "                    on a third-party link, you will be directed to that site.\n"
+                "                    Note that these external sites are not operated by\n"
+                "                    me. Therefore, I strongly advise you to\n"
+                "                    review the Privacy Policy of these websites.\n"
+                "                    I have no control over and assume no\n"
+                "                    responsibility for the content, privacy policies, or\n"
+                "                    practices of any third-party sites or services.\n"
+                "                  </p> <p><strong>Children’s Privacy</strong></p> <p>\n"
+                "                    These Services do not address anyone under the age of 13.\n"
+                "                    I do not knowingly collect personally\n"
+                "                    identifiable information from children under 13. In the case\n"
+                "                    I discover that a child under 13 has provided\n"
+                "                    me with personal information,\n"
+                "                    I immediately delete this from our servers. If you\n"
+                "                    are a parent or guardian and you are aware that your child\n"
+                "                    has provided us with personal information, please contact\n"
+                "                    me so that I will be able to do\n"
+                "                    necessary actions.\n"
+                "                  </p> <p><strong>Changes to This Privacy Policy</strong></p> <p>\n"
+                "                    I may update our Privacy Policy from\n"
+                "                    time to time. Thus, you are advised to review this page\n"
+                "                    periodically for any changes. I will\n"
+                "                    notify you of any changes by posting the new Privacy Policy\n"
+                "                    on this page. These changes are effective immediately after\n"
+                "                    they are posted on this page.\n"
+                "                  </p> <p><strong>Contact Us</strong></p> <p>\n"
+                "                    If you have any questions or suggestions about\n"
+                "                    my Privacy Policy, do not hesitate to contact\n"
+                "                    me at mockingjey@proton.me\n"
+                "                  </p> \n"
+                "    </body>\n"
+                "    </html>\n"
+]]>
+    </string>
+
+</resources>

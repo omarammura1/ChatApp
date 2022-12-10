@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PGroupInfoActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/groupImageInfo"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"/>
+
+
+            <TextView
+                android:id="@+id/descriptionTv"
+                android:layout_width="match_parent"
+                android:layout_above="@+id/createdBy"
+                android:background="#54000000"
+                android:text="The DDD"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"/>
+
+            <TextView
+                android:id="@+id/createdBy"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:background="#54000000"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Created by AVB"
+                android:textSize="12sp"
+                android:textColor="@color/textColor"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/editGroup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/editgroup"
+            android:drawableStart="@drawable/ic_baseline_edit_24"
+            android:drawableTint="@color/black"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/textColor"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eee"/>
+
+        <TextView
+            android:id="@+id/addPartiGroup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/add_participants"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:drawableStart="@drawable/ic_baseline_group_add_24"
+            android:drawableTint="@color/black"
+            android:drawablePadding="10dp"
+            android:textColor="@color/textColor"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eee"/>
+
+
+        <TextView
+            android:id="@+id/participantsNUM"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/participants"
+            android:drawableStart="@drawable/ic_baseline_group_24"
+            android:drawableTint="@color/black"
+            android:drawablePadding="10dp"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/partiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_participant"/>
+
+
+
+       <TextView
+           android:id="@+id/leaveGroup"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/leave_group"
+           android:drawableStart="@drawable/ic_baseline_exit_to_app_24"
+           android:drawableTint="@color/red_500"
+           android:drawablePadding="10dp"
+           android:textSize="20sp"
+           android:padding="5dp"
+           android:layout_marginTop="5dp"
+           android:textColor="@color/textColor"
+           />
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

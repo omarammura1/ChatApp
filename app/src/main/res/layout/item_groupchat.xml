@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="1dp"
+    app:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imageview_groups_item"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/user"/>
+
+        <TextView
+            android:id="@+id/tv_groupsName_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:text="Group Name"
+            android:layout_toEndOf="@id/imageview_groups_item"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/tv_groupsSenderName_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sender"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@+id/imageview_groups_item"
+            android:layout_below="@+id/tv_groupsName_item"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/tv_groupsMessage_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_below="@+id/tv_groupsName_item"
+            android:text="Message"
+            android:layout_marginStart="5dp"
+            android:singleLine="true"
+            android:layout_toEndOf="@id/tv_groupsSenderName_item"
+         />
+
+
+        <ImageView
+            android:id="@+id/image_unread_messages"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            android:layout_width="20dp"
+            android:visibility="gone"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_groupstimeMessage_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Time"
+            android:layout_marginEnd="5dp"
+            android:singleLine="true"
+            android:layout_below="@id/tv_groupsSenderName_item"
+           />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

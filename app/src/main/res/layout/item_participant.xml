@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/img_parti"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/user" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/online_dot_parti"
+            android:layout_width="15dp"
+            android:visibility="invisible"
+            android:layout_height="15dp"
+            android:layout_alignRight="@+id/img_parti"
+            android:layout_alignBottom="@+id/img_parti"
+            android:background="@drawable/buttons"
+            android:backgroundTint="@color/green_200"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img_parti"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/username_parti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bio_parti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_parti"
+            android:text="Simple users " />
+
+        <TextView
+            android:id="@+id/who_parti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="admin" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

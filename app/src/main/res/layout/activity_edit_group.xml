@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/grey_300"
+    tools:context=".Activities.GroupCreateActivity">
+
+
+    <include
+        android:id="@+id/toolbar_pubG"
+        layout="@layout/appbar_layout"/>
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_below="@+id/toolbar_pubG"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border="true"
+        app:civ_border_color="@color/colorPrimary"
+        android:id="@+id/groupImage"
+        android:src="@drawable/ic_baseline_group_24"
+        />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/groupNamePublic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/groupname"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@color/white"
+        android:layout_below="@+id/groupImage"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/groupDesPublic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupNamePublic"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@color/white"
+        android:hint="@string/groupdec"
+        android:inputType="textMultiLine|textCapSentences"
+        android:minHeight="100dp"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/groupEditBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_baseline_done_24" />
+
+
+</RelativeLayout>

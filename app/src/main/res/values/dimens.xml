@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--genaral spacing-->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">3dp</dimen>
+    <dimen name="spacing_medium">5dp</dimen>
+    <dimen name="spacing_xmedium">7dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_large">15dp</dimen>
+    <dimen name="spacing_smlarge">18dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+    <dimen name="spacing_mxlarge">25dp</dimen>
+    <dimen name="spacing_xlarge">35dp</dimen>
+    <dimen name="spacing_xmlarge">40dp</dimen>
+    <dimen name="spacing_xxlarge">50dp</dimen>
+    <dimen name="spacing_xxxlarge">55dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+        <dimen name="activity_horizontal_margin">16dp</dimen>
+        <dimen name="activity_vertical_margin">16dp</dimen>
+        <dimen name="fab_margin">16dp</dimen>
+        <dimen name="app_bar_height">180dp</dimen>
+        <dimen name="text_margin">16dp</dimen>
+        <dimen name="img_width">250dp</dimen>
+        <dimen name="img_height">250dp</dimen>
+        <dimen name="margin_top_message">8dp</dimen>
+        <dimen name="margin_bottom_message">8dp</dimen>
+        <dimen name="row_gallery_width">130dp</dimen>
+        <dimen name="row_gallery_height">120dp</dimen>
+        <dimen name="new_message_notification_text_size">8sp</dimen>
+        <dimen name="et_message_text_size">16sp</dimen>
+        <dimen name="r_audio_width">275dp</dimen>
+        <dimen name="max_width_group_users">220dp</dimen>.
+        <dimen name="emoji_size_default">20sp</dimen>
+        <dimen name="emoji_size_only_emojis">40sp</dimen>
+        <dimen name="emoji_size_single_emoji">50sp</dimen>
+
+</resources>
